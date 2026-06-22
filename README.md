@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# 다시이음 (WorkLinker)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+중장년층의 재취업 준비를 돕기 위해 정부지원 및 무료 교육 정보를 한곳에서 탐색하고, 사용자 조건에 맞는 교육을 추천받을 수 있도록 기획한 맞춤형 교육 추천 서비스입니다.
 
-## Available Scripts
+## 프로젝트 소개
 
-In the project directory, you can run:
+재취업을 준비하는 중장년층은 교육 정보, 지원 제도, 직무 정보가 여러 사이트에 분산되어 있어 필요한 정보를 한 번에 비교하기 어렵습니다.
 
-### `npm start`
+다시이음은 이러한 문제를 해결하기 위해 정부지원 및 무료 교육 정보를 통합 제공하고, 사용자 조건에 맞는 교육을 추천하여 재취업 준비 과정을 지원하는 서비스를 목표로 기획되었습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 주요 기능
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* 정부지원 및 무료 교육 프로그램 탐색
+* 사용자 관심 분야 기반 교육 추천
+* 성공 사례 게시판
+* 로그인 및 회원가입
+* 게시글 및 댓글 기능
+* 직무 및 교육 정보 제공
 
-### `npm test`
+## 기술 스택
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend
 
-### `npm run build`
+* React
+* JavaScript
+* CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Backend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Flask
+* Python
+* MySQL
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Recommendation
 
-### `npm run eject`
+* SBERT
+* Cosine Similarity
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 담당 역할
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* 메인 화면 및 주요 화면 구현
+* 사용자 흐름 기반 화면 구성
+* DB 구조 설계 보완
+* 일부 백엔드 API 연동
+* 프론트엔드·백엔드 데이터 연결
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 협업 경험
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+프로젝트 진행 중 백엔드 담당 인원이 이탈하면서 일부 DB 구조 설계와 백엔드 연동 작업을 함께 수행했습니다.
 
-## Learn More
+PM은 별도로 존재했으며, 저는 팀원으로서 주요 화면 구현과 사용자 흐름 개선, 데이터 구조 보완에 기여했습니다.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 프로젝트 회고
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+서비스 기획뿐 아니라 데이터 구조와 백엔드 연동이 사용자 경험에 직접적인 영향을 준다는 점을 경험했습니다.
 
-### Code Splitting
+특히 중장년층 사용자를 고려하여 큰 글씨, 단순한 메뉴 구조, 카드형 정보 배치 등 사용자 친화적인 UI를 설계하며 서비스 대상에 맞는 화면 구성의 중요성을 학습했습니다.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 향후 개선 방향
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* 교육 추천 정확도 개선
+* 교육 데이터 확대
+* 관리자 기능 추가
+* 콘텐츠 관리 기능 보완
+* 추천 알고리즘 고도화
